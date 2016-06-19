@@ -8,8 +8,8 @@
 # Site settings
 title: Jacobians blog
 email: admin@karengnayong.com
-description: >
-this blog will mainly be about code building
+description: about code building
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.jacobian.xyz" # the base hostname & protocol for your site
 twitter_username: jacobian64
@@ -17,3 +17,5 @@ github_username:  jacobian64
 
 # Build settings
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
